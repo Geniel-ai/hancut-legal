@@ -96,14 +96,14 @@
       <thead><tr><th>구분</th><th>항목</th><th>수집 시점</th></tr></thead>
       <tbody>
         <tr><td>필수</td><td>토스 로그인 식별자(userKey)</td><td>토스 로그인 시</td></tr>
-        <tr><td>필수</td><td>이름(user_name)</td><td>토스 로그인 시</td></tr>
+        <tr><td>필수</td><td>이름</td><td>토스 로그인 시</td></tr>
         <tr><td>필수</td><td>이용자가 업로드한 스크린샷 이미지</td><td>업로드 시</td></tr>
         <tr><td>필수</td><td>매매 데이터(종목명, 매매일, 수익률 등)</td><td>OCR 처리 후</td></tr>
         <tr><td>선택</td><td>일지 메모</td><td>이용자 직접 입력 시</td></tr>
       </tbody>
     </table>
   </div>
-  <div class="callout">회사는 이용자의 <strong>이메일·전화번호·생년월일·주민등록번호·계좌번호·잔액</strong> 등을 수집하지 않습니다.</div>
+  <div class="callout">회사는 이용자의 <strong>이메일·전화번호·생년월일·주민등록번호·계좌번호·잔액</strong> 등을 수집하지 않습니다. 이름은 토스 로그인 플랫폼의 필수 동의 항목으로 전달받으나, 회사는 이를 별도로 저장하지 않으며 로그인 처리 시점에만 일시 처리합니다.</div>
   <h3>2. 수집 방법</h3>
   <ul>
     <li>토스 로그인 API를 통한 식별자 자동 수신</li>
@@ -117,7 +117,7 @@
       <thead><tr><th>정보</th><th>보유 기간</th></tr></thead>
       <tbody>
         <tr><td>토스 로그인 식별자</td><td>토스 로그인 연결 해제 시까지</td></tr>
-        <tr><td>이름(user_name)</td><td>토스 로그인 연결 해제 시까지</td></tr>
+        <tr><td>이름</td><td><strong>저장하지 않음</strong> (로그인 처리 시점에만 일시 처리)</td></tr>
         <tr><td>스크린샷 원본 이미지</td><td><strong>저장하지 않음</strong> (OCR 처리 후 즉시 폐기)</td></tr>
         <tr><td>매매 데이터(JSON)</td><td>토스 로그인 연결 해제 시까지</td></tr>
         <tr><td>일지 메모</td><td>토스 로그인 연결 해제 시까지</td></tr>
@@ -248,7 +248,7 @@
     <span class="row"><dt>사업자명</dt> 앤조이코드</span>
     <span class="row"><dt>사업자등록번호</dt> 305-44-60644</span>
     <span class="row"><dt>대표자</dt> 김환희</span>
-    <span class="row"><dt>사업장 주소</dt> 인천 부평구 길주남로10번길 11, 래미안 201-1101</span>
+    <span class="row"><dt>사업장 주소</dt> 인천 부평구 길주남로10번길 11</span>
     <span class="row"><dt>고객문의</dt> hancut.help@gmail.com</span>
     <span class="row"><dt>서비스명</dt> 한컷투자 (Hancut Invest)</span>
   </div>
